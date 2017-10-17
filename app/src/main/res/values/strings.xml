@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Comprices</string>
+    <string name="title_activity_login">Login comprices</string>
+    <string name="str_confirm_lclz">Precisamos da sua localização para encontrarmos o mercado.</string>
+    <string name="str_pergunta_estabelecimento">Em qual mercado você está?</string>
+
+    <!-- Strings related to login -->
+
+
+    <string name="facebook_app_id">1835523176761117</string>
+    <string name="fb_login_protocol_scheme">fb1835523176761117</string>
+    <string name="lugar_atual">Lugar atual</string>
+    <string name="lugares_lidos">Lugares lidos</string>
+    <string name="nome_do_usuario">Nome do usuario</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorActivatedHighlight"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.milatosoft.comprices.activities.MainActivity">
+
+
+    <TextView
+        android:id="@+id/id_tv_lugar_atual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lugar_atual"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary50"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:id="@+id/id_pb_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/id_nm_usu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nome_do_usuario" />
+
+
+            <TextView
+                android:id="@+id/id_tx_local"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lugares_lidos" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
